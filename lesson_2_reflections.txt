@@ -15,3 +15,10 @@ repository? What value do you think it offers?
     The staging area is different than the working directory and the repository
     because it is taking files from the working directory and setting them up
     to be committed to the repository.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+    The staging area allows you to specify which files you want to update during
+    that commit so you dont update all the files at once which could make things
+    challenging when searching for bugs in the program.
