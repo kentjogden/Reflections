@@ -22,3 +22,11 @@ change?
     The staging area allows you to specify which files you want to update during
     that commit so you dont update all the files at once which could make things
     challenging when searching for bugs in the program.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+    Branches would be helpful when I am wanting different versions of the same
+    program or if I wanted features tested. Branches allow you to unalter the
+    other branches while testing things out so you dont have to fear about
+    breaking your code when trying out several things at once.
