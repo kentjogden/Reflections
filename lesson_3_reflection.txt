@@ -1,6 +1,21 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-    You would want to use a remote when you want to collaborate with others. Remotes will
-    allow multiple people to access the file.
-    
-    
+    You would want to use a remote when you want to collaborate with others.
+    Remotes will allow multiple people to access the file.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    You may not want to start diverging from what is on github or you may not
+    want to have everything that the other collaborator has put up. You also
+    may only want certain branches.
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+    A fork is how you can clone a repository and still have it link to the
+    original on github. A fork allows you to control a repository that was
+    originally from someone else while still linking it to the original.
+    a clone is a copy of the repository but the updates you make to that
+    repository will still occur on the original repository that you cloned.
+    a branch is a part of the repository and is just another path of commits.

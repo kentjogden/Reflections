@@ -30,3 +30,25 @@ organized? How would branches help?
     program or if I wanted features tested. Branches allow you to unalter the
     other branches while testing things out so you dont have to fear about
     breaking your code when trying out several things at once.
+
+How do the diagrams help you visualize the branch structure?
+
+    Diagrams allow you to easily see which commits have parents and also to see
+    which commits are inaccessible from any branch.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    Merging two branches together will combine the changes, additions and
+    subtractions from the original. The diagrams are used so that we can
+    see the parents of the merged files and what will be shown in git log.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+    Pros of Git's automatic merging is that most of the merges occur by a
+    simple command because git will keep track of what changes are made and
+    you do not have to find them yourselves. The cons are the fact that
+    git cannot always understand what to keep from each of the files. This
+    makes it necessary to resolve conflicts and understand what changes to keep
+    and how they will affect the program.
